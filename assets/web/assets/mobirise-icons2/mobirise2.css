@@ -1,16 +1,17 @@
 @font-face {
   font-family: 'Moririse2';
   font-display: swap;
-  src:  url('MBR2.eot?f2bix4');
-  src:  url('MBR2.eot?f2bix4#iefix') format('embedded-opentype'),
-    url('MBR2.ttf?f2bix4') format('truetype'),
-    url('MBR2.woff?f2bix4') format('woff'),
-    url('MBR2.svg?f2bix4#MBR2') format('svg');
+  src:  url('mobirise2.eot?f2bix4');
+  src:  url('mobirise2.eot?f2bix4#iefix') format('embedded-opentype'),
+    url('mobirise2.ttf?f2bix4') format('truetype'),
+    url('mobirise2.woff?f2bix4') format('woff'),
+    url('mobirise2.svg?f2bix4#mobirise2') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="mobi-"], [class*=" mobi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Moririse2' !important;
   speak: none;
   font-style: normal;
@@ -19,6 +20,7 @@
   text-transform: none;
   line-height: 1;
 
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -266,7 +268,7 @@
 .mobi-mbri-mobile:before {
   content: "\e950";
 }
-.mobi-mbri-MBR:before {
+.mobi-mbri-mobirise:before {
   content: "\e951";
 }
 .mobi-mbri-more-horizontal:before {
