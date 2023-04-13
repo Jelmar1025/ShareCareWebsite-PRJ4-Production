@@ -1067,7 +1067,7 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
-  background-image: url("../../../assets/images/background13.jpg");
+  background-image: url("../../../assets/images/counselling-group-1000x563.jpg");
 }
 .cid-tB6JVsLRb4 .mbr-section-title {
   color: #05668d;
@@ -1121,6 +1121,60 @@ a {
   background-color: #ffffff;
 }
 .cid-tAYfzdzHBX .line {
+  background-color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-tBflDBevbd {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #eaf1f8;
+}
+.cid-tBflDBevbd .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tBflDBevbd .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tBflDBevbd ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 2.5rem;
+}
+.cid-tBflDBevbd li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.cid-tBflDBevbd ul li::before {
+  position: absolute;
+  left: -1.6rem;
+  content: "\2022";
+  color: #6592e6;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 1.6rem;
+}
+.cid-tBflDBevbd H3 {
+  text-align: center;
+  color: #679436;
+}
+.cid-tBflDBevbd .list {
+  text-align: center;
+  color: #427aa1;
+}
+.cid-tAYfzOxCr5 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-tAYfzOxCr5 .line {
   background-color: #ffffff;
   align: center;
   height: 2px;
@@ -1207,60 +1261,6 @@ a {
 .cid-sFzErVWEaH .social-row {
   color: #427aa1;
   text-align: center;
-}
-.cid-tAYfzOxCr5 {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
-}
-.cid-tAYfzOxCr5 .line {
-  background-color: #ffffff;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-tBflDBevbd {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  background-color: #eaf1f8;
-}
-.cid-tBflDBevbd .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tBflDBevbd .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tBflDBevbd ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 2.5rem;
-}
-.cid-tBflDBevbd li {
-  position: relative;
-  margin-bottom: 1rem;
-}
-.cid-tBflDBevbd ul li::before {
-  position: absolute;
-  left: -1.6rem;
-  content: "\2022";
-  color: #6592e6;
-  font-weight: bold;
-  font-size: 2rem;
-  width: 1.6rem;
-}
-.cid-tBflDBevbd H3 {
-  text-align: center;
-  color: #679436;
-}
-.cid-tBflDBevbd .list {
-  text-align: center;
-  color: #427aa1;
 }
 .cid-sFAyMcKwph {
   padding-top: 15px;
@@ -2242,12 +2242,13 @@ a {
   }
 }
 .cid-tAmCMioxvE .icon-title {
-  text-align: left;
+  text-align: center;
   color: #679436;
 }
 .cid-tAmCMioxvE .card-title,
 .cid-tAmCMioxvE .card-box {
   color: #679436;
+  text-align: center;
 }
 .cid-tAmCMioxvE .mbr-text,
 .cid-tAmCMioxvE .mbr-section-btn {
@@ -2255,6 +2256,7 @@ a {
 }
 .cid-tAmCMioxvE .icon-text {
   color: #427aa1;
+  text-align: center;
 }
 .cid-sFCygHrmNf {
   padding-top: 2rem;
